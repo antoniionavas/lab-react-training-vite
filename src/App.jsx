@@ -6,6 +6,9 @@ import BoxColor from "./components/BoxColor";
 import CreditCard from "./components/CreditCard";
 import Rating from "./components/Rating";
 import DriverCard from "./components/DriverCard";
+import LikeButton from "./components/LikeButton";
+import ClickablePicture from "./components/ClickablePicture";
+import Dice from "./components/Dice";
 
 function App() {
   return (
@@ -132,6 +135,29 @@ function App() {
           licensePlate: "BE33ER"
         }}
       />
+
+      <br></br>
+      <br></br>
+
+      <div>
+        <h1>Botón de Likes</h1>
+        <LikeButton />
+        <LikeButton />
+      </div>
+
+        
+      <br></br>
+      <br></br>
+
+      <ClickablePicture
+        img="src\assets\images\astronaut.png"
+        imgClicked="src\assets\images\gafas.png"
+      />
+
+      <br></br>
+      <br></br>
+
+      <Dice />
 
     </div>
   );
